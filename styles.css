@@ -14,6 +14,7 @@ body {
     background-image: url('mycover.jpg');
     background-repeat: no-repeat;
 }
+
 .main-content {
     min-height: 100vh;
     width: 80%;
@@ -32,9 +33,10 @@ body {
 
 .right-content {
     grid-column: span 5;
-    background-color: #f7f7f7; 
+    background-color: #f7f7f7;
     height: 100%;
 }
+
 /*  Fin Structure basic du page  */
 
 /* Contenu de la pge  */
@@ -43,11 +45,13 @@ body {
 .left-section {
     padding: 1rem 4rem;
 }
+
 .profile {
     width: 100%;
     border-bottom: 1px solid #031016;
 }
-.profile img { 
+
+.profile img {
     width: 100%;
     border-radius: 20%;
     border: 8px solid #94D9EA
@@ -61,6 +65,7 @@ body {
     letter-spacing: 1px;
     padding: 1.2rem 0;
 }
+
 .career {
     font-size: 1.2rem;
     color: #94D9EA;
@@ -77,6 +82,7 @@ body {
     color: #f7f7f7;
     padding-top: 3rem;
 }
+
 .contact-info ul {
     padding-top: 2rem;
 }
@@ -87,6 +93,7 @@ body {
     align-items: center;
     color: #718096;
 }
+
 a {
     color: #2D9CDB;
 }
@@ -100,39 +107,40 @@ input, select, button {
     width: 40rem;
     height: 3rem;
 }
-h2
-{
+
+h2 {
     color: #031016;
 }
 
-.boutton
-{
- margin: auto;
+.boutton {
+    margin: auto;
 }
 
-.contact-info ul li i{
+.contact-info ul li i {
     padding-right: 1rem;
     font-size: 1.2rem;
     color: #2D9CDB;
 }
 
-.skills-section ul{
+.skills-section ul {
     padding-top: 2rem;
 }
-.skills-section ul li{
+
+.skills-section ul li {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     padding: .4rem 0;
 }
 
-.progress-bar{
+.progress-bar {
     width: 100%;
     height: .4rem;
     background-color: #2f81ed5b;
     position: relative;
     border-radius: 12px;
 }
-.progress{
+
+.progress {
     height: 100%;
     position: absolute;
     left: 0;
@@ -143,27 +151,35 @@ h2
 .py-progress {
     width: 90%;
 }
-.dj-progress{
+
+.dj-progress {
     width: 80%;
 }
-.fl-progress{
+
+.fl-progress {
     width: 76%;
 }
+
 .sql-progress {
     width: 50%;
 }
-.c-progress{
+
+.c-progress {
     width: 40%;
 }
+
 .html-progress {
     width: 90%;
 }
+
 .gt-progress {
     width: 80%;
 }
+
 .sass-progress {
     width: 60%;
 }
+
 /* Refference  */
 .skill-title {
     text-transform: uppercase;
@@ -173,50 +189,53 @@ h2
 
 }
 
-.skill-title{
+.skill-title {
     text-transform: uppercase;
     color: #f7f7f7;
     font-size: 1rem;
 }
 
-.sub-title{
+.sub-title {
     padding-top: 2rem;
     font-size: 1.2rem;
     text-transform: uppercase;
     color: #f7f7f7;
 }
-.sub-para{
+
+.sub-para {
     color: #ccc;
     padding: .4rem 0;
 }
 
-.references-section li{
+.references-section li {
     color: #ccc;
     padding: .2rem 0;
 }
-.references-section li i{
+
+.references-section li i {
     padding-right: .5rem;
     font-size: 1.2rem;
     color: #2D9CDB;
 }
+
 /* Fin Contenu guache de la page */
 
 
 /* 2. Contenu droite de la page */
-.right-main-content{
+.right-main-content {
     padding: 2rem 3rem;
 }
 
 
-.right-title{
+.right-title {
     letter-spacing: 1px;
     text-transform: uppercase;
-    color: #2F80ED;
+    color: #4fed2f;
     margin-bottom: 1.2rem;
     position: relative;
 }
 
-.right-title::after{
+.right-title::after {
     content: "";
     position: absolute;
     width: 60%;
@@ -228,42 +247,43 @@ h2
     transform: translateY(-50%);
 }
 
-.para{
+.para {
     line-height: 1.6rem;
     color: #718096;
     font-size: 1.1rem;
 }
 
-.sect{
+.sect {
     padding-bottom: 2rem;
 }
 
-.timeline{
+.timeline {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 }
 
-.tl-title{
+.tl-title {
     letter-spacing: 1px;
     font-size: 1.3rem;
     color: #002333;
     text-transform: uppercase;
 }
-.tl-title-2{
+
+.tl-title-2 {
     letter-spacing: 1px;
     font-size: 1.3rem;
     color: #2D9CDB;
     text-transform: uppercase;
 }
 
-.tl-content{
+.tl-content {
     border-left: 1px solid #ccc;
     padding-left: 2rem;
     position: relative;
     padding-bottom: 2rem;
 }
 
-.tl-title-2::before{
+.tl-title-2::before {
     content: "";
     position: absolute;
     width: .7rem;
@@ -275,47 +295,56 @@ h2
 }
 
 /*Media Querries*/
-@media screen and (max-width:823px){
-    .right-title::after{
+@media screen and (max-width:823px) {
+    .right-title::after {
         width: 40%;
     }
 }
-@media screen and (max-width:681px){
-    .right-title::after{
+
+@media screen and (max-width:681px) {
+    .right-title::after {
         width: 30%;
     }
 }
-@media screen and (max-width:780px){
-    .timeline{
+
+@media screen and (max-width:780px) {
+    .timeline {
         grid-template-columns: repeat(1, 1fr);
     }
 }
-@media screen and (max-width:780px){
-    .left-section{
+
+@media screen and (max-width:780px) {
+    .left-section {
         grid-column: span 3;
     }
-    .right-section{
+
+    .right-section {
         grid-column: span 4;
     }
 }
-@media screen and (max-width:1200px){
-    .main-content{
+
+@media screen and (max-width:1200px) {
+    .main-content {
         grid-template-columns: repeat(1, 1fr);
     }
-    .profile img{
+
+    .profile img {
         width: 40%;
     }
 }
-@media screen and (max-width:700px){
-    .profile img{
+
+@media screen and (max-width:700px) {
+    .profile img {
         width: 60%;
     }
 }
-@media screen and (max-width:390px){
-    .name{
+
+@media screen and (max-width:390px) {
+    .name {
         font-size: 1.5rem;
     }
 }
+
 /* Fin Contenu droite de la page */
 
 /*  Fin Contenu de la pge  */
